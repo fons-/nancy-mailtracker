@@ -22,4 +22,6 @@ Weetje misschien kunnen die drie stappen ook in 1 scherm idk.
 
 Verder moet je nog een interface schrijven waarmee je al je trackers in een overzicht ziet. Centraal is hier: foto, naam en "seen/not seen" met vinkjes.
 
+Iets met bootstrap zou ik cool vinden. :)
+
 Voila!
