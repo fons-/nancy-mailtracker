@@ -13,7 +13,8 @@ namespace MTServer.Modules
 			};
 			Get["/i/{tag}"] = parameters =>
 			{
-				Console.WriteLine(parameters.tag.ToString());
+				TrackEntry trackEntry = new TrackEntry(parameters.tag, Request.UserHostAddress, DateTime.Now);
+				Console.WriteLine(trackEntry);
 
 				return Response.AsImage("Content/nancy-logo.png");
 			};
